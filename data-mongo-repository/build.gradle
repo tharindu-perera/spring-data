@@ -1,0 +1,74 @@
+buildscript {
+
+	ext.spring_boot_version = '2.0.0.RELEASE'
+
+
+	repositories {
+//        jcenter()
+		mavenCentral()
+//         maven { url 'https://repo.spring.io/libs-snapshot' }
+//         maven { url 'https://repo.spring.io/libs-milestone' }
+	}
+	dependencies {
+
+		classpath "org.springframework.boot:spring-boot-gradle-plugin:$spring_boot_version"
+
+	}
+}
+//apply plugin:'application'
+apply plugin: 'java'
+apply plugin: 'eclipse'
+//apply plugin: 'idea'
+apply plugin: 'io.spring.dependency-management'
+repositories {
+	mavenCentral()
+	maven { url 'https://repo.spring.io/libs-snapshot' }
+	maven { url 'https://repo.spring.io/libs-milestone' }
+}
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.boot:spring-boot-dependencies:${spring_boot_version}"
+		mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Finchley.M9'
+	}
+}//apply plugin: 'io.spring.dependency-management'
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+//apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+bootJar {
+	baseName = 'spring-boot-java-mongo'
+	version =  '0.1.0'
+}
+//jar {
+//    baseName = 'gs-spring-boot2'
+//    version =  '0.1.0'
+//}
+
+repositories {
+	mavenCentral()
+	maven { url "https://repository.jboss.org/nexus/content/repositories/releases" }
+
+}
+//mainClassName='com.SpringBootApp'
+//
+//springBoot {
+//    mainClassName = "com.SpringBootApp"
+//}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+	compile("org.springframework.boot:spring-boot-starter-web")
+	compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+//    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+//    compile("com.h2database:h2")
+	compile group: 'log4j', name: 'log4j', version:'1.2.17'
+//	runtime group: 'ch.qos.logback', name: 'logback-classic', version:'1.0.13'
+//	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version:'1.5.4.RELEASE'
+//	runtime group: 'mysql', name: 'mysql-connector-java', version:'5.1.42'
+
+	compile("org.springframework.boot:spring-boot-starter-data-mongodb")
+	testCompile("junit:junit")
+	testCompile("org.springframework.boot:spring-boot-starter-test")
+}
