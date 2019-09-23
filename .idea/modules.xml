@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-jdbc-template-mysql.iml" filepath="$PROJECT_DIR$/.idea/modules/data-jdbc-template-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-jdbc-template-mysql_main.iml" filepath="$PROJECT_DIR$/.idea/modules/data-jdbc-template-mysql_main.iml" group="data-jdbc-template-mysql" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-jdbc-template-mysql_test.iml" filepath="$PROJECT_DIR$/.idea/modules/data-jdbc-template-mysql_test.iml" group="data-jdbc-template-mysql" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-jpa-mysql.iml" filepath="$PROJECT_DIR$/.idea/modules/data-jpa-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-jpa-mysql_main.iml" filepath="$PROJECT_DIR$/.idea/modules/data-jpa-mysql_main.iml" group="data-jpa-mysql" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-jpa-mysql_test.iml" filepath="$PROJECT_DIR$/.idea/modules/data-jpa-mysql_test.iml" group="data-jpa-mysql" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-mongo-repository.iml" filepath="$PROJECT_DIR$/.idea/modules/data-mongo-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-mongo-repository_main.iml" filepath="$PROJECT_DIR$/.idea/modules/data-mongo-repository_main.iml" group="data-mongo-repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-mongo-repository_test.iml" filepath="$PROJECT_DIR$/.idea/modules/data-mongo-repository_test.iml" group="data-mongo-repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-rest.iml" filepath="$PROJECT_DIR$/.idea/modules/data-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-rest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/data-rest_main.iml" group="data-rest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-rest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/data-rest_test.iml" group="data-rest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-mongo.iml" filepath="$PROJECT_DIR$/.idea/modules/java-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-mongo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-mongo_main.iml" group="java-mongo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-mongo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-mongo_test.iml" group="java-mongo" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring-boot-mysql-rest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="data-jdbc-template-mysql_main" target="1.5" />
+      <module name="data-jdbc-template-mysql_test" target="1.5" />
+      <module name="data-jpa-mysql_main" target="1.5" />
+      <module name="data-jpa-mysql_test" target="1.5" />
+      <module name="data-mongo-repository_main" target="1.8" />
+      <module name="data-mongo-repository_test" target="1.8" />
+      <module name="data-mongo_main" target="1.8" />
+      <module name="data-mongo_test" target="1.8" />
+      <module name="data-rest_main" target="1.5" />
+      <module name="data-rest_test" target="1.5" />
+      <module name="java-mongo_main" target="1.8" />
+      <module name="java-mongo_test" target="1.8" />
+      <module name="Spring-boot-mysql-rest" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
